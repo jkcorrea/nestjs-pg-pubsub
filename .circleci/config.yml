@@ -1,4 +1,4 @@
-version: 2
+version: 2.1
 
 aliases:
   - &restore-cache
@@ -12,6 +12,9 @@ aliases:
     run:
       name: Build
       command: npm run build
+
+orbs:
+  codecov: codecov/codecov@1.0.5
 
 jobs:
   build:
@@ -70,6 +73,8 @@ jobs:
       - run:
           name: tests
           command: npm run test
+      - codecov/upload:
+        file: coverage
 
 workflows:
   version: 2

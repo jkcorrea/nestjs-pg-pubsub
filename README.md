@@ -4,7 +4,7 @@
   <a href="https://www.npmjs.com/package/nestjs-pg-pubsub"><img src="https://img.shields.io/npm/v/nestjs-pg-pubsub.svg" alt="NPM Version" /></a>
   <a href="https://www.npmjs.com/package/nestjs-pg-pubsub"><img src="https://img.shields.io/npm/l/nestjs-pg-pubsub.svg" alt="Package License" /></a>
   <a href="https://www.npmjs.com/package/nestjs-pg-pubsub"><img src="https://img.shields.io/npm/dm/nestjs-pg-pubsub.svg" alt="NPM Downloads" /></a>
-  <a href="https://travis-ci.org/jkcorrea/nestjs-pg-pubsub"><img src="https://api.travis-ci.org/jkcorrea/nestjs-pg-pubsub.svg?branch=master" alt="Travis" /></a>
+  <a href="https://travis-ci.org/jkcorrea/nestjs-pg-pubsub"><img src="https://circleci.com/gh/jkcorrea/nestjs-pg-pubsub.svg?style=svg" alt="CircleCI" /></a>
   <a href="https://travis-ci.org/jkcorrea/nestjs-pg-pubsub"><img src="https://img.shields.io/jkcorrea/nestjs-pg-pubsub/nest/master.svg?label=linux" alt="Linux" /></a>
   <a href="https://coveralls.io/github/jkcorrea/nestjs-pg-pubsub?branch=master"><img src="https://coveralls.io/repos/github/jkcorrea/nestjs-pg-pubsub/badge.svg?branch=master#5" alt="Coverage" /></a>
   <a href="https://paypal.me/jkcorrea"><img src="https://img.shields.io/badge/Donate-PayPal-dc3d53.svg"/></a>
