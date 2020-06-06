@@ -12,7 +12,7 @@
     "lint": "eslint 'lib/**/*.ts' --fix",
     "prepare": "npm run build",
     "test": "jest --runInBand",
-    "prerelease": "npm run build",
+    "prerelease": "npm run build && npm run test",
     "release": "release-it"
   },
   "files": [
