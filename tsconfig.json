@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+
+    "target": "es6",
+    "module": "commonjs",
+
+    "noLib": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "declaration": true,
+    "sourceMap": false,
+
+    "baseUrl": "."
+  },
+  "include": ["lib/**/*", "tests/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
