@@ -73,6 +73,7 @@ jobs:
       - run:
           name: tests
           command: npm run test
+
       - codecov/upload:
         file: coverage
 
