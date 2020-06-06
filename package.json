@@ -10,10 +10,8 @@
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"**/*.ts\"",
     "lint": "eslint 'lib/**/*.ts' --fix",
-    "prepublishOnly": "npm run build",
-    "publish": "npm run publish --access public",
-    "publish:next": "npm run publish --access public --tag next",
-    "test": "jest --config ./tests/jest.config.json --runInBand",
+    "prepare": "npm run build",
+    "test": "jest --runInBand",
     "prerelease": "npm run build",
     "release": "release-it"
   },
